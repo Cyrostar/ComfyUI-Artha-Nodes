@@ -1,0 +1,17 @@
+[project]
+name = "ComfyUI-Artha-Nodes"
+description = "ComfyUI custom nodes for general purposes."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/Cyrostar/ComfyUI-Artha-Nodes"
+
+[tool.comfy]
+PublisherId = "Cyrostar"
+DisplayName = "ComfyUI-Artha-Nodes"
+Icon = "🔱"
+
+
+

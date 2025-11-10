@@ -1,0 +1,7 @@
+torch
+numpy
+numexpr
+scikit-learn
+soundfile
+Pillow
+google-genai
