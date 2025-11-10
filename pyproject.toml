@@ -9,9 +9,10 @@ dependencies = []
 Repository = "https://github.com/Cyrostar/ComfyUI-Artha-Nodes"
 
 [tool.comfy]
-PublisherId = "Cyrostar"
+PublisherId = "cyrostar"
 DisplayName = "ComfyUI-Artha-Nodes"
 Icon = "🔱"
+
 
 
 
