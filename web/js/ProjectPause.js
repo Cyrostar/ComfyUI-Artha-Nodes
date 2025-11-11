@@ -2,7 +2,7 @@ import { app } from "../../scripts/app.js";
 import { api } from "../../scripts/api.js";
 
 app.registerExtension({
-    name: "Artha.PRJ.Project.Pause",
+    name: "ComfyUI.Artha.Nodes.Project.Pause",
 	
 	setup() {
         // Listen for reset messages from Python

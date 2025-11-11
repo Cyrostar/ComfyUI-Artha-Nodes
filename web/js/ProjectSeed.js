@@ -74,7 +74,7 @@ ComfyWidgets.BUTTON = function(node, inputName, inputData, app) {
 };
 
 app.registerExtension({
-    name: "Artha.PRJ.Project.Seed",
+    name: "ComfyUI.Artha.Nodes.Project.Seed",
     
     async setup(app) {
         // Track seeds when workflows are executed

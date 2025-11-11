@@ -1,7 +1,7 @@
 import { app } from "../../scripts/app.js";
 
 app.registerExtension({
-    name: "Artha.Comfy.Image.Display",
+    name: "ComfyUI.Artha.Nodes.Image.Display",
     async beforeRegisterNodeDef(nodeType, nodeData, app) {
         
 		if (nodeData.name === "Image Display") {

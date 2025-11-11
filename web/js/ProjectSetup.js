@@ -1,7 +1,7 @@
 import { app } from "../../scripts/app.js";
 
 app.registerExtension({
-    name: "Artha.PRJ.Project.Setup",
+    name: "ComfyUI.Artha.Nodes.Project.Setup",
     async beforeRegisterNodeDef(nodeType, nodeData, app) {
         
 		if (nodeData.name === "Artha Project Setup") {

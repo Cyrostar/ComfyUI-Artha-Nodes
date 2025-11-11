@@ -1,7 +1,7 @@
 import { app } from "../../scripts/app.js";
 
 app.registerExtension({
-    name: "Artha.LLM.Gemini.Response",
+    name: "ComfyUI.Artha.Nodes.Gemini.Response",
     async beforeRegisterNodeDef(nodeType, nodeData, app) {
         
 		if (nodeData.name === "Artha Gemini Response") {

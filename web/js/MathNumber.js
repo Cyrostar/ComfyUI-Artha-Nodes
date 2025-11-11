@@ -1,7 +1,7 @@
 import { app } from "../../scripts/app.js";
 
 app.registerExtension({
-    name: "Artha.Comfy.Math.Number",
+    name: "ComfyUI.Artha.Nodes.Math.Number",
     async beforeRegisterNodeDef(nodeType, nodeData, app) {
         
 		if (nodeData.name === "Math Number") {
