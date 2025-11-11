@@ -260,15 +260,15 @@ class ProjectPause:
         return (input,)
 
 NODE_CLASS_MAPPINGS = {
-    "Project Setup": ProjectSetup,
-    "Project Prefix": ProjectPrefix,
-    "Project Seed": ProjectSeed,
-    "Project Pause": ProjectPause,
+    "Artha Project Setup": ProjectSetup,
+    "Artha Project Prefix": ProjectPrefix,
+    "Artha Project Seed": ProjectSeed,
+    "Artha Project Pause": ProjectPause,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "Project Setup": node_prefix() + " PROJECT SETUP",
-    "Project Prefix": node_prefix() + " PROJECT PREFIX",
-    "Project Seed": node_prefix() + " PROJECT SEED",
-    "Project Pause": node_prefix() + " PROJECT PAUSE",
+    "Artha Project Setup":  node_prefix() + " ARTHA PROJECT SETUP",
+    "Artha Project Prefix": node_prefix() + " ARTHA PROJECT PREFIX",
+    "Artha Project Seed":   node_prefix() + " ARTHA PROJECT SEED",
+    "Artha Project Pause":  node_prefix() + " ARTHA PROJECT PAUSE",
 }
