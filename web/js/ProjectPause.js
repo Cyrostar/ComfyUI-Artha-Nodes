@@ -26,7 +26,7 @@ app.registerExtension({
     
     async beforeRegisterNodeDef(nodeType, nodeData, app) {
         
-		if (nodeData.name === "Project Pause") {
+		if (nodeData.name === "Artha Project Pause") {
             
             if (!document.getElementById("artha_default_button_style")) {
                 const style = document.createElement("style");

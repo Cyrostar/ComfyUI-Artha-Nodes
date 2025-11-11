@@ -4,7 +4,7 @@ app.registerExtension({
     name: "Artha.PRJ.Project.Setup",
     async beforeRegisterNodeDef(nodeType, nodeData, app) {
         
-		if (nodeData.name === "Project Setup") {
+		if (nodeData.name === "Artha Project Setup") {
         
             const onNodeCreated = nodeType.prototype.onNodeCreated;
 			

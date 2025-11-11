@@ -98,7 +98,7 @@ app.registerExtension({
     
     async beforeRegisterNodeDef(nodeType, nodeData, app) {
         
-        if (nodeData.name === "Project Seed") {
+        if (nodeData.name === "Artha Project Seed") {
             
             const onNodeCreated = nodeType.prototype.onNodeCreated;
             
