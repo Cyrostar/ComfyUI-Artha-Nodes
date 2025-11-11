@@ -4,7 +4,7 @@ app.registerExtension({
     name: "Artha.LLM.Gemini.Response",
     async beforeRegisterNodeDef(nodeType, nodeData, app) {
         
-		if (nodeData.name === "Gemini Response") {
+		if (nodeData.name === "Artha Gemini Response") {
         
             const onNodeCreated = nodeType.prototype.onNodeCreated;
 			
