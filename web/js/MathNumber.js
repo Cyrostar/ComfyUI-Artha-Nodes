@@ -4,7 +4,7 @@ app.registerExtension({
     name: "ComfyUI.Artha.Nodes.Math.Number",
     async beforeRegisterNodeDef(nodeType, nodeData, app) {
         
-		if (nodeData.name === "Math Number") {
+		if (nodeData.name === "Artha Math Number") {
         
             const onNodeCreated = nodeType.prototype.onNodeCreated;
 			

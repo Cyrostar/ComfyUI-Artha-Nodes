@@ -4,7 +4,7 @@ app.registerExtension({
     name: "ComfyUI.Artha.Nodes.Image.Display",
     async beforeRegisterNodeDef(nodeType, nodeData, app) {
         
-		if (nodeData.name === "Image Display") {
+		if (nodeData.name === "Artha Image Display") {
         
             const onNodeCreated = nodeType.prototype.onNodeCreated;
 			
