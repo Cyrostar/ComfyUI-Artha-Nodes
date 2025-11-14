@@ -345,20 +345,20 @@ class MathNumber:
 #################################################
 
 NODE_CLASS_MAPPINGS = {
-    "Math Integer":     MathInteger,
-    "Math Float":       MathFloat,
-    "Math Int2Flo":     MathInt2Flo,
-    "Math Flo2Int":     MathFlo2Int,
-    "Math Operation":   MathOperation,
-    "Math Random":      MathRandom,
-    "Math Number":      MathNumber,
+    "Artha Math Integer":     MathInteger,
+    "Artha Math Float":       MathFloat,
+    "Artha Math Int2Flo":     MathInt2Flo,
+    "Artha Math Flo2Int":     MathFlo2Int,
+    "Artha Math Operation":   MathOperation,
+    "Artha Math Random":      MathRandom,
+    "Artha Math Number":      MathNumber,
 }
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "Math Integer": node_prefix()   + " Math Integer",
-    "Math Float": node_prefix()     + " Math Float",
-    "Math Int2Flo": node_prefix()   + " Math I2F",
-    "Math Flo2Int": node_prefix()   + " Math F2I",
-    "Math Operation": node_prefix() + " Math Operation",
-    "Math Random": node_prefix()    + " Math Random",
-    "Math Number": node_prefix()    + " Math Number",
+    "Artha Math Integer": node_prefix()   + " Artha Math Integer",
+    "Artha Math Float": node_prefix()     + " Artha Math Float",
+    "Artha Math Int2Flo": node_prefix()   + " Artha Math I2F",
+    "Artha Math Flo2Int": node_prefix()   + " Artha Math F2I",
+    "Artha Math Operation": node_prefix() + " Artha Math Operation",
+    "Artha Math Random": node_prefix()    + " Artha Math Random",
+    "Artha Math Number": node_prefix()    + " Artha Math Number",
 }
