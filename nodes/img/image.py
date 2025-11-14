@@ -197,12 +197,12 @@ class ColorMatch:
 
 
 NODE_CLASS_MAPPINGS = {
-    "Image Loader": ImageLoader,
-    "Image Display": ImageDisplay,
-    "Color Match": ColorMatch,
+    "Artha Image Loader": ImageLoader,
+    "Artha Image Display": ImageDisplay,
+    "Artha Color Match": ColorMatch,
 }
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "Image Loader": node_prefix() + " IMAGE LOADER",
-    "Image Display": node_prefix() + " IMAGE DISPLAY",
-    "Color Match": node_prefix() + " COLOR MATCH",
+    "Artha Image Loader":   node_prefix() + " ARTHA IMAGE LOADER",
+    "Artha Image Display":  node_prefix() + " ARTHA IMAGE DISPLAY",
+    "Artha Color Match":    node_prefix() + " ARTHA COLOR MATCH",
 }
