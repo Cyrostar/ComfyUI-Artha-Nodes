@@ -124,8 +124,8 @@ class InputSelector:
 
 # Node mappings for ComfyUI
 NODE_CLASS_MAPPINGS = {
-    "InputSelector": InputSelector,
+    "Artha Input Selector": InputSelector,
 }
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "InputSelector": node_prefix() + " INPUT SELECTOR",
+    "Artha Input Selector": node_prefix() + " ARTHA INPUT SELECTOR",
 }
