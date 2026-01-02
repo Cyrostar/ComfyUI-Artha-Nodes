@@ -11,5 +11,5 @@ Repository = "https://github.com/Cyrostar/ComfyUI-Artha-Nodes"
 [tool.comfy]
 PublisherId = "cyrostar"
 DisplayName = "ComfyUI-Artha-Nodes"
-Icon = "🔱"
-Banner = "https://github.com/Cyrostar/ComfyUI-Artha-Nodes/blob/main/web/js/img/arthanodesbanner.png"
+Icon = "https://raw.githubusercontent.com/Cyrostar/ComfyUI-Artha-Nodes/refs/heads/main/web/js/img/arthanodesicon.png"
+Banner = "https://raw.githubusercontent.com/Cyrostar/ComfyUI-Artha-Nodes/refs/heads/main/web/js/img/arthanodesbanner.png"
