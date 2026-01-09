@@ -2,6 +2,7 @@ torch
 numpy
 numexpr
 scikit-learn
+opencv-python
 soundfile
 Pillow
 google-genai
