@@ -12,9 +12,9 @@
 
     "gemini_image_model": [
 		"gemini-2.5-flash-image-preview",
-        "gemini-2.0-flash-preview-image-generation"
+        "gemini-3-pro-image-preview"
     ],
-    "gemini_image_model_default": "gemini-2.0-flash-preview-image-generation",
+    "gemini_image_model_default": "gemini-2.5-flash-image-preview",
 
     "gemini_video_model": [
         "veo-3.0-generate-preview",
